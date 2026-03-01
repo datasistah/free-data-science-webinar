@@ -120,10 +120,11 @@ export default function Page() {
             <div className="mt-6 rounded-2xl border border-slate-700 bg-slate-900/60 p-5">
               <p className="text-sm font-semibold text-slate-100">This is for you if:</p>
               <ul className="mt-3 space-y-2 text-sm text-slate-300">
-                <Bullet>You’re trying to transition into data science without a technical degree.</Bullet>
-                <Bullet>You’ve taken courses but still don’t feel confident.</Bullet>
-                <Bullet>You’re applying and not getting callbacks.</Bullet>
-                <Bullet>You want a clear starting point instead of random advice.</Bullet>
+                <Bullet>You’re serious about becoming a data scientist and want to do it the right way.</Bullet>
+                <Bullet>You’re a student, career changer, or early professional trying to stand out.</Bullet>
+                <Bullet>You’ve learned skills but struggle to position yourself clearly.</Bullet>
+                <Bullet>You’re tired of guessing and want a focused strategy.</Bullet>
+                <Bullet>You want proof, not just certificates.</Bullet>
               </ul>
             </div>
 
@@ -135,16 +136,16 @@ export default function Page() {
             {/* Newsletter benefits */}
             <div className="mt-10 rounded-2xl border border-slate-700 bg-slate-900/60 p-5">
               <p className="text-sm font-semibold">When you subscribe, you also get my newsletter.</p>
-              <p className="mt-1 text-sm text-slate-300">
-                Practical data science career strategy. Clear steps. No recycled advice.
-              </p>
+            <p className="mt-1 text-sm text-slate-300">
+                Practical data science career strategy from someone actively building in the field.
+            </p>
 
-              <ul className="mt-4 space-y-2 text-sm text-slate-300">
-                <Bullet>Resume and project strategy that helps you get past ATS systems.</Bullet>
-                <Bullet>Real breakdowns of what’s working in today’s job market.</Bullet>
-                <Bullet>Templates and frameworks I use with career switchers.</Bullet>
-                <Bullet>Early access to future trainings and free resources.</Bullet>
-              </ul>
+            <ul className="mt-4 space-y-2 text-sm text-slate-300">
+                <Bullet>How to structure your resume so hiring managers see real value.</Bullet>
+                <Bullet>Project strategy that turns learning into proof.</Bullet>
+                <Bullet>Clear breakdowns of what companies are actually looking for.</Bullet>
+                <Bullet>Invites to live Q&A roundtables and future trainings.</Bullet>
+            </ul>
 
               <a
                 href="https://datasistah.substack.com/subscribe"
