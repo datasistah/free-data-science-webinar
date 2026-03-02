@@ -22,40 +22,50 @@ function SubscribeCard() {
   return (
     <div className="rounded-3xl border border-slate-700 bg-slate-900/80 p-6 shadow-sm shadow-black/20 backdrop-blur">
       <h2 className="text-xl font-bold text-[#ec8fd0]">Get instant access</h2>
+
       <p className="mt-2 text-sm text-slate-300">
-        Enter your email to subscribe on Substack and get the full training recording.
+        Get the full training recording now, plus ongoing data science career strategy delivered to your inbox.
       </p>
 
-      {/* Clear newsletter notice (the piece you said you missed) */}
+      {/* Premium value block */}
       <div className="mt-5 rounded-2xl border border-slate-700 bg-slate-950/50 p-4">
-        <p className="text-sm font-semibold text-slate-100">
-          You’ll also be joining my Substack newsletter.
-        </p>
-        <p className="mt-1 text-sm text-slate-300">
-          That’s where I send practical data science career tips, templates, and new free trainings.
-          Unsubscribe anytime.
-        </p>
+        <p className="text-sm font-semibold text-slate-100">What you’ll receive</p>
+
+        <ul className="mt-3 space-y-2 text-sm text-slate-300">
+          <li className="flex gap-3">
+            <span className="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-[#ec8fd0]" />
+            The full training recording
+          </li>
+          <li className="flex gap-3">
+            <span className="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-[#ec8fd0]" />
+            Practical job search and project strategy
+          </li>
+          <li className="flex gap-3">
+            <span className="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-[#ec8fd0]" />
+            Templates, examples, and future trainings
+          </li>
+        </ul>
       </div>
 
-      <div className="mt-5 rounded-2xl border border-slate-700 bg-slate-950/70 p-4">
-        <div className="text-sm text-slate-300">
-          <p className="font-semibold">Subscribe below</p>
-          <p className="mt-1">
-            Get the recording now and future training updates in your inbox.
-          </p>
-        </div>
+      {/* Primary CTA */}
+      <a
+        href="https://datasistah.substack.com/subscribe"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-6 inline-flex w-full items-center justify-center rounded-xl bg-[#ec8fd0] px-6 py-3 text-sm font-semibold text-[#0f172a] transition hover:brightness-95"
+      >
+        Subscribe on Substack
+      </a>
 
-        <div className="mt-4">
-          <SubstackEmbed />
-        </div>
-      </div>
+      <p className="mt-4 text-xs text-slate-400">
+        No spam. Unsubscribe anytime.
+      </p>
 
-      <div className="mt-5 text-xs text-slate-400">No spam. Unsubscribe anytime.</div>
-
+      {/* Trust + premium upsell */}
       <div className="mt-5 rounded-2xl border border-slate-700 bg-slate-950/50 p-4">
-        <p className="text-xs font-semibold text-slate-200">Quick note</p>
+        <p className="text-xs font-semibold text-slate-200">Want deeper support?</p>
         <p className="mt-1 text-xs text-slate-400">
-          If the email lands in spam or promotions, move it to your primary inbox so you don’t miss future templates and trainings.
+          Paid members get live Q&A roundtables, archives, and subscriber-only strategy posts.
         </p>
       </div>
     </div>
